@@ -1,0 +1,38 @@
+/* 引入在线图标字体样式库 */
+@import "./styles/iconfont.wxss";
+
+/* 在小程序中不能有* */
+
+/* 初始化 */
+
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+navigator {
+    padding   : 0;
+    margin    : 0;
+    box-sizing: border-box;
+}
+
+/* 主题颜色 通过变量来实现
+1 less 中 存在 变量这个知识
+2 原生css和wxss也是支持 变量的
+*/
+
+page {
+    /* 定义注主题颜色 */
+    --themeColor: #d81e06;
+    /* 定义同意字体大小 假设设计稿 带下是 375px
+    1px=2rpx;
+    14px=28rpx;
+    */
+    font-size: 28rpx;
+
+}
+
+image {
+    width  : 100%;
+}

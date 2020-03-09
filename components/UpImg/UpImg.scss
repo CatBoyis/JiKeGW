@@ -1,0 +1,22 @@
+.up_img_wrap {
+    width      : 90rpx;
+    height     : 90rpx;
+    position   : relative;
+    margin-left: 30rpx;
+    margin-top : 25rpx;
+
+
+    image {
+        overflow     : hidden;
+        width        : 100%;
+        height       : 100%;
+        border-radius: 15rpx;
+    }
+
+    icon {
+        position : absolute;
+        right    : 0;
+        top      : 0;
+        transform: translate(50%, -50%);
+    }
+}

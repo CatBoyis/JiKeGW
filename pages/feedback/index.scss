@@ -1,0 +1,72 @@
+page {
+    background-color: #eeeeee;
+}
+
+.fb_mian {
+    padding: 20rpx;
+    color  : #666;
+
+    .fb_title {}
+
+    .fb_tips {
+        display      : flex;
+        flex-wrap    : wrap;
+        margin-bottom: 10px;
+
+        text {
+            width           : 28%;
+            padding         : 10rpx;
+            text-align      : center;
+            background-color: #fff;
+            margin          : 15rpx 10rpx 0 10rpx;
+        }
+    }
+
+    .fb_content {
+        margin-top      : 10px;
+        background-color: #fff;
+        padding-bottom  : 20rpx;
+
+        textarea {
+            padding: 10rpx;
+        }
+
+        .fb_tool {
+            display    : flex;
+            align-items: center;
+            flex-wrap  : wrap;
+
+            button {
+                padding        : 0;
+                margin         : 0;
+                margin-left    : 30rpx;
+                margin-top     : 25rpx;
+                width          : 90rpx;
+                height         : 90rpx;
+                font-size      : 40rpx;
+                border         : 1rpx solid #666;
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+            }
+        }
+    }
+
+    .form_btn_wrap {
+
+        margin-top     : 20rpx;
+        display        : flex;
+        justify-content: flex-end;
+
+        button {
+            display         : flex;
+            justify-content : center;
+            align-items     : center;
+            margin          : 0;
+            padding         : 10rpx;
+            color           : #fff;
+            width           : 220rpx;
+            background-color: var(--themeColor);
+        }
+    }
+}
